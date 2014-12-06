@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>title</key>
+    <string>ForceReach</string>
+    <key>entry</key>
+    <dict>
+      <key>cell</key>
+      <string>PSLinkCell</string>
+      <key>icon</key>
+      <string>FR.png</string>
+      <key>label</key>
+      <string>ForceReach</string>
+    </dict>
+    <key>items</key>
+    <array>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Any orientation</string>
+        <key>footerText</key>
+    	<string>Force Reachability to activate in any device orientations. With default reachability move direction applied.</string>
+      </dict>
+       <dict>
+        	<key>cell</key>
+        	<string>PSSwitchCell</string>
+        	<key>default</key>
+        	<false/>
+        	<key>defaults</key>
+        	<string>com.apple.springboard</string>
+        	<key>key</key>
+        	<string>SBPSForceReachOrientation</string>
+        	<key>label</key>
+        	<string>Force</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Better Reach</string>
+        <key>footerText</key>
+    	<string>(For SpringBoard icons) When Any orientation option is enabled, you may also turn on this option to let reachability direction toward home button for easier reach.
+    	
+Note: For now, you may hardly activate icons in landscape mode, as you have to touch down and up inside icon area, the reachability deactivation after launching application (perform scrolling icons list) is a reason.</string>
+      </dict>
+       <dict>
+        	<key>cell</key>
+        	<string>PSSwitchCell</string>
+        	<key>default</key>
+        	<false/>
+        	<key>defaults</key>
+        	<string>com.apple.springboard</string>
+        	<key>key</key>
+        	<string>SBPSReachabilityGoodOrientation</string>
+        	<key>label</key>
+        	<string>Enabled</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Default Keep Alive</string>
+        <key>footerText</key>
+        <string>The interval before Reachability unactivation if user did not touch at any visible area.</string>
+      </dict>
+      <dict>
+        	<key>cell</key>
+        	<string>PSSwitchCell</string>
+        	<key>default</key>
+        	<false/>
+        	<key>defaults</key>
+        	<string>com.apple.springboard</string>
+        	<key>key</key>
+        	<string>SBPSForceReachDefaultKeepAlive</string>
+        	<key>label</key>
+        	<string>Unlimited</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>After Touch Keep Alive</string>
+        <key>footerText</key>
+        <string>The interval before Reachability unactivation if user touched at any visible area.</string>
+      </dict>
+      <dict>
+        	<key>cell</key>
+        	<string>PSSwitchCell</string>
+        	<key>default</key>
+        	<false/>
+        	<key>defaults</key>
+        	<string>com.apple.springboard</string>
+        	<key>key</key>
+        	<string>SBPSForceReachInteractiveKeepAlive</string>
+        	<key>label</key>
+        	<string>Unlimited</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Instant mode</string>
+        <key>footerText</key>
+    	<string>Prevent Reachability deactivating when performing view controller transition/push/pop/present.</string>
+      </dict>
+       <dict>
+        	<key>cell</key>
+        	<string>PSSwitchCell</string>
+        	<key>default</key>
+        	<false/>
+        	<key>defaults</key>
+        	<string>com.apple.springboard</string>
+        	<key>key</key>
+        	<string>SBPSInstantReachability</string>
+        	<key>label</key>
+        	<string>Enabled</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Insane mode</string>
+        <key>footerText</key>
+    	<string>Force Reachability to activate in any possible states.</string>
+      </dict>
+       <dict>
+        	<key>cell</key>
+        	<string>PSSwitchCell</string>
+        	<key>default</key>
+        	<false/>
+        	<key>defaults</key>
+        	<string>com.apple.springboard</string>
+        	<key>key</key>
+        	<string>SBPSForceReachInsane</string>
+        	<key>label</key>
+        	<string>Enabled</string>
+      </dict>
+       <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerAlignment</key>
+        <integer>1</integer>
+        <key>footerText</key>
+        <string>© 2013 - 2014 Thatchapon Unprasert
+(@PoomSmart)</string>
+      </dict>
+    </array>
+  </dict>
+</plist>

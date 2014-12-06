@@ -1,0 +1,10 @@
+Name: ForceReach
+Package: org.thebigboss.forcereach
+Author: PoomSmart
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate, preferenceloader
+Section: Tweaks
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Let Reachability do something more.
+Icon: file:///Library/PreferenceLoader/Preferences/ForceReach/FR@2x.png
